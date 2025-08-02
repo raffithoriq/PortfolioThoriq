@@ -637,7 +637,7 @@ export function Certificates() {
                                       <span className="text-slate-400">
                                         {subKey}:
                                       </span>{" "}
-                                      {subValue}
+                                      {String(subValue)}
                                     </div>
                                   )
                                 )}
