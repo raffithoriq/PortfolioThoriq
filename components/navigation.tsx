@@ -59,17 +59,17 @@ export function Navigation() {
       <div className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="flex items-center space-x-3">
-            {/* <div className="w-8 h-8 relative">
+            <div className="w-8 h-8 relative ml-24">
               <Image
-                src="/favicon.ico"
+                src="/images/LOGORIQ1.png"
                 alt="ART Logo"
                 width={32}
                 height={32}
                 className="w-full h-full object-contain"
               />
-            </div> */}
+            </div> 
             {/* <span className="text-xl font-bold text-white">
-              <span className="text-blue-400">A</span>RT
+              <span className="text-blue-400">R</span>IQ
             </span> */}
           </motion.div>
 
